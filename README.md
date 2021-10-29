@@ -66,7 +66,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ------------
 
 ### Tentang Repository Ini?
-Repositori ini adalah Web App Blog yang berfungsi untuk saling membagi blog dengan melihat blog yang sudah dibuat maupun sharing blog pribadi dengan masuk ke author page dan Web App ini dibuat oleh <a href="https://github.com/afifsauqil"> Yoni Widhi C </a>
+Repositori ini adalah Web App Blog yang berfungsi untuk saling membagi blog dengan melihat blog yang sudah dibuat maupun sharing blog pribadi dengan masuk ke author page dan Web App ini dibuat oleh <a href="https://github.com/afifsauqil"> Afif Sauqil </a>
 
 ### Fitur Apa Saja Yang Tersedia di Web App Ini?
 - Authorization Admin dan Guest Author
