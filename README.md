@@ -62,3 +62,59 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+------------
+
+### Tentang Repository Ini?
+Repositori ini adalah Web App Blog yang berfungsi untuk saling membagi blog dengan melihat blog yang sudah dibuat maupun sharing blog pribadi dengan masuk ke author page dan Web App ini dibuat oleh <a href="https://github.com/afifsauqil"> Yoni Widhi C </a>
+
+### Fitur Apa Saja Yang Tersedia di Web App Ini?
+- Authorization Admin dan Guest Author
+- Terdapat 2 User Level dan Middleware
+- Menu Management (Post Category)
+- Blog & CRUD (Validation Data, Upload Image, dan Preview Image)
+
+------------
+
+## 💻 Install
+
+1. **Clone Repository**
+```bash
+git clone https://github.com/afifsauqil/GoBlog.git
+cd GoBlog
+composer install
+npm install && npm run dev
+copy .env.example .env
+```
+
+2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan konfigurasi database**
+```
+DB_PORT=3306
+DB_DATABASE=blog
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+3. **Instalasi website**
+```bash
+php artisan migrate:fresh --seed
+```
+
+4. **Run the website**
+```bash
+php artisan serve
+```
+
+------------
+
+ ### 👤 Default Account for testing
+	
+**Admin Default Account**
+- Username: admin@gmail.com
+- Password: admin
+
+**Guest Author Default Account**
+- Username: author@gmail.com
+- Password: author
+
+------------
